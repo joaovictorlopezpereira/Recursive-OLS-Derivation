@@ -1,0 +1,166 @@
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\usetheme{Darmstadt}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\usepackage{graphicx}
+\usepackage{float}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\usepackage{geometry}
+\geometry{left=0.4cm, right=0.4cm}
+\usepackage{csquotes}
+\usepackage{upquote}
+\usepackage{listings}
+\usepackage{hyperref}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{\quad\hfill\normalsize{\insertframenumber}\strut\quad}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\usepackage[style=numeric, backend=biber]{biblatex}
+\addbibresource{outer-crust/repertoire.bib}
+\graphicspath{{figures}{../figures/used-figures/}}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\lstnewenvironment{code}[1][]{
+  \lstset{
+    basicstyle=\ttfamily,
+    columns=flexible,
+    breaklines=true,
+    breakatwhitespace=true,
+    frame=none,
+    basewidth=0.5em,
+    aboveskip=13pt,
+    belowskip=0pt,
+    #1
+  }
+}{}
+
+\newcommand{\excerptpage}[2]{
+  \begin{center}
+    \textit{#1}\\
+        --- #2.
+  \end{center}
+}
+
+\newcommand{\bigtitlepage}[1]{%
+  \section{#1}
+  \begin{center}
+    \vspace*{\fill}
+    {\Huge #1}
+    \vspace*{\fill}
+  \end{center}
+}
+%->8-------------------------------------------------------------------------------------------8<-%
+
+% Math
+%->8-------------------------------------------------------------------------------------------8<-%
+\usepackage{amsmath, amssymb, calculation, mathdots, scalerel, mathtools}
+\usepackage{../calculation}
+
+  % Matrices and Vectors Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newenvironment{jmatrix}{\left[\begin{matrix}}{\end{matrix}\right]}
+  \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+  \newcommand{\fnorm}[1]{\left\lVert#1\right\rVert_\mathsf{F}}
+  \newcommand{\dotprod}[2]{\left\langle #1 \, \middle| \, #2 \right\rangle}
+  \newcommand{\proj}[2]{\mathrm{proj}_{#1}(#2)}
+  \renewcommand{\det}[1]{\mathrm{det}\left(#1\right)}
+  \newcommand{\posto}[1]{\mathrm{posto}\left(#1\right)}
+  \newcommand{\dist}[1]{\mathrm{dist}(#1)}
+  \newcommand{\N}[1]{\mathrm{N}\left(#1\right)}
+  \newcommand{\spn}[1]{\mathrm{span}\left(#1\right)}
+  \renewcommand{\t}{^{\scriptscriptstyle\mathsf{T}\mkern-1mu}}
+  \renewcommand{\dim}[2]{(#1 \times #2)}
+  \newcommand{\bigvert}{\rule[-1ex]{0.5pt}{6.8ex}}
+  \renewcommand{\vert}{\rule[-1ex]{0.5pt}{2.5ex}}
+  \newcommand{\bighori}{\rule[.5ex]{6.8ex}{0.5pt}}
+  \newcommand{\hori}{\rule[.5ex]{2.5ex}{0.5pt}}
+  %->8-------------------------------------------------------------8<-%
+
+  % Optimization Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newcommand{\mintext}{\text{Min}}
+  \renewcommand{\min}[1]{\underset{#1}{\mathrm{Min}}\,\,}
+  \newcommand{\maxtext}{\text{Max}}
+  \renewcommand{\max}[1]{\underset{#1}{\mathrm{Max}}\,\,}
+  \newcommand{\argmintext}{\text{Argmin}}
+  \newcommand{\argmin}[1]{\underset{#1}{\mathrm{Argmin}}\,\,}
+  \newcommand{\argmaxtext}{\text{Argmax}}
+  \newcommand{\argmax}[1]{\underset{#1}{\mathrm{Argmax}}\,\,}
+  %->8-------------------------------------------------------------8<-%
+
+  % Functions Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newcommand{\grad}[1]{\underset{#1}{\nabla}\,\,}
+  \newcommand{\hess}[1]{\underset{#1}{\mathcal{H}}\,\,}
+  \newcommand{\sderiv}[2]{\dfrac{d #2}{d #1}}
+  \newcommand{\bderiv}[2]{\dfrac{d}{d #1}\left(#2\right)}
+  \newcommand{\spderiv}[2]{\dfrac{\partial #2}{\partial #1}}
+  \newcommand{\bpderiv}[2]{\dfrac{\partial}{\partial #1}\left(\displaystyle#2\right)}
+  \newcommand{\dpderiv}[2]{\dfrac{\partial^2\left(\displaystyle#2\right)}{\partial #1^2}}
+  \newcommand{\vero}[1]{\mathcal{L}(#1)}
+  \newcommand{\cvero}[2]{\mathcal{L}(#1 \mid #2)}
+  \newcommand{\prob}[2]{\mathrm{P}_{#1}\left[#2\right]}
+  \newcommand{\cprob}[3]{\mathrm{P}_{#1}\left(#2 \mid #3\right)}
+  \newcommand{\pfunc}[2]{\mathrm{P}_{#1}\left(#2\right)}
+  %->8-------------------------------------------------------------8<-%
+
+  % Number Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newcommand{\mul}{\cdot}
+  \renewcommand{\deg}{\ensuremath{^\circ}}
+  \renewcommand{\sin}[1]{\mathrm{sen}\left(#1\right)}
+  \newcommand{\logtext}{\mathrm{log}}
+  \renewcommand{\log}[1]{\logtext\left(#1\right)}
+  \newcommand{\lntext}{\mathrm{ln}}
+  \renewcommand{\ln}[1]{\lntext\left(#1\right)}
+  \renewcommand{\exp}[1]{\mathrm{e}^{#1}}
+  \newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+  %->8-------------------------------------------------------------8<-%
+
+  % Modeling Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newcommand{\blackbox}{\raisebox{0.2ex}{\rule{1.2ex}{1.2ex}}}
+  \newcommand{\whitebox}{\raisebox{0.2ex}{\fboxsep=0pt\fbox{\rule{1.2ex}{0pt}\rule{0pt}{1.2ex}}}}
+  \newcommand{\fim}[2]{\vspace{0.075cm} \dfrac{#1}{#2}}
+  %->8-------------------------------------------------------------8<-%
+
+  % Other Math Related Commands
+  %->8-------------------------------------------------------------8<-%
+  \newcommand{\rep}[1]{\mathrm{rep}\left(#1\right)}
+  % \newcommand{\union}{\cup}
+  \newcommand{\bigunion}{\bigcup}
+  % \newcommand{\intersec}{\cap}
+  \newcommand{\bigintersec}{\bigcap}
+  % \renewcommand{\gets}{\leftarrow}
+  \newcommand{\E}{\Sigma}
+  \newcommand{\st}{\,\,|\,\,}
+  \newcommand{\impliesdown}{\displaystyle\Downarrow}
+  % \DeclareMathOperator*{\com}{\scalerel*{,}{\sum}}
+  %->8-------------------------------------------------------------8<-%
+%->8-------------------------------------------------------------------------------------------8<-%
+
+%->8-------------------------------------------------------------------------------------------8<-%
+\title{Raciocínio Equacional para a Derivação de \\ Algoritmos de Álgebra Linear sob a \\ Perspectiva de Otimização}
+% \subtitle{A NEW APPROACH}
+\author{%
+  \textbf{João Victor Lopez Pereira} \\
+  \vspace{0.2cm}
+  Daniel Sadoc Menasche \\
+  \vspace{0.2cm}
+  João Antonio Recio Paixão
+}
+\institute{Instituto de Computação -- UFRJ}
+\date{Outubro de 2026}
+%->8-------------------------------------------------------------------------------------------8<-%
