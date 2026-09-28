@@ -1,73 +1,53 @@
 <mxfile host="65bd71144e">
     <diagram id="TIUG3zzZI8yvlcEGr8bU" name="Page-1">
-        <mxGraphModel dx="1174" dy="553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="967" dy="455" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-1" parent="1" style="whiteSpace=wrap;html=1;fontStyle=0" value="Teorema de Eckart-Young-Mirsky" vertex="1">
-                    <mxGeometry height="60" width="120" x="400" y="220" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="353" y="266" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-7" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-1">
+                <mxCell id="i_65Nc-5cbcgUHU5yjV--7" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i_65Nc-5cbcgUHU5yjV--2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-38" connectable="0" parent="CzlY_3GEPiYwgtGJOx_Z-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1960" vertex="1">
-                    <mxGeometry relative="1" x="-0.1052" y="-3" as="geometry">
-                        <mxPoint y="-13" as="offset"/>
-                    </mxGeometry>
+                <mxCell id="i_65Nc-5cbcgUHU5yjV--8" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-6" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Desigualdade de Traço de Von Neumann&lt;/span&gt;&lt;/p&gt;" vertex="1">
-                    <mxGeometry height="60" width="120" x="240" y="220" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="193" y="219" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-11" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-6">
+                <mxCell id="i_65Nc-5cbcgUHU5yjV--10" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-10" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-37" connectable="0" parent="CzlY_3GEPiYwgtGJOx_Z-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1975" vertex="1">
-                    <mxGeometry relative="1" x="-0.0792" y="-2" as="geometry">
-                        <mxPoint x="1" y="-12" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;Teorema de Birkhoff-von Neumann&lt;/font&gt;&lt;/p&gt;" vertex="1">
-                    <mxGeometry height="60" width="120" x="80" y="220" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="33" y="166" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-23" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-20" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
+                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-23" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-20" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-20" parent="1" style="whiteSpace=wrap;html=1;" value="Multiplicadores de Lagrange + Weierstrauss" vertex="1">
-                    <mxGeometry height="60" width="120" x="658" y="120" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="673" y="206" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-22" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-21" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-21" parent="1" style="whiteSpace=wrap;html=1;" value="Maximização do Quociente de Rayleight" vertex="1">
-                    <mxGeometry height="60" width="120" x="560" y="220" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="513" y="266" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-25" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-24" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
+                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-25" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-24" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-24" parent="1" style="whiteSpace=wrap;html=1;" value="Programação Linear" vertex="1">
-                    <mxGeometry height="60" width="120" x="658" y="320" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="673" y="326" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-31" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-6">
+                <mxCell id="i_65Nc-5cbcgUHU5yjV--9" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-33" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-6">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-36" connectable="0" parent="CzlY_3GEPiYwgtGJOx_Z-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1991" vertex="1">
-                    <mxGeometry relative="1" x="-0.296" y="-1" as="geometry">
-                        <mxPoint x="21" y="6" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-30" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Cauchy-Schwarz&lt;/span&gt;&lt;/p&gt;" vertex="1">
-                    <mxGeometry height="60" width="120" x="240" y="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-34" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-33" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-6">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-35" connectable="0" parent="CzlY_3GEPiYwgtGJOx_Z-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1937" vertex="1">
-                    <mxGeometry relative="1" x="0.2154" y="-3" as="geometry">
-                        <mxPoint x="17" y="4" as="offset"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-33" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Cauchy-Schwarz e outras Desigualdades&lt;/span&gt;&lt;/p&gt;" vertex="1">
-                    <mxGeometry height="60" width="120" x="240" y="320" as="geometry"/>
+                    <mxGeometry height="60" width="120" x="33" y="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="i_65Nc-5cbcgUHU5yjV--2" parent="1" style="whiteSpace=wrap;html=1;fontStyle=0" value="Problema Ortogonal de Procrustes" vertex="1">
+                    <mxGeometry height="60" width="120" x="353" y="166" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
