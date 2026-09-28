@@ -1,0 +1,24 @@
+
+\begin{frame}{Álgebra de Argmins}
+  \begin{lemma}[Argmin Desacoplado]
+    Seja $f : X \times Y \mapsto \mathbb{R}$ uma função tal que, $\forall x \in X$, $\min{y} f(x,y)$ exista.
+    \[
+      \argmin{x \in X, y \in Y} f(x,y)
+      =
+      \left\{(\bar{x}, \bar{y}) \bigst
+        \begin{array}{ll}
+          \bar{x} \in \argmin{x} \min{y} f(x,y), \\
+          \bar{y} \in \argmin{y} f(\bar{x}, y).
+        \end{array}
+      \right\}.
+    \]
+  \end{lemma}
+
+  \vfill
+
+  \begin{enumerate}
+    \item Permite ``desacoplar'' problemas de otimização; \\[0.75cm]
+    \item Permite indução em problemas de otimização.
+  \end{enumerate}
+
+\end{frame}
