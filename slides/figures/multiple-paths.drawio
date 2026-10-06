@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TIUG3zzZI8yvlcEGr8bU" name="Page-1">
-        <mxGraphModel dx="1033" dy="355" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="772" dy="357" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -25,13 +25,13 @@
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-23" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-20" parent="1" style="whiteSpace=wrap;html=1;" value="Lagrange + Weierstrauss" vertex="1">
+                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-20" parent="1" style="whiteSpace=wrap;html=1;" value="Lagrange + Weierstrass" vertex="1">
                     <mxGeometry height="38" width="80" x="314" y="145" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-22" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-21" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-21" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;Rayleight" vertex="1">
+                <mxCell id="CzlY_3GEPiYwgtGJOx_Z-21" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;Rayleigh" vertex="1">
                     <mxGeometry height="38" width="80" x="314" y="215" as="geometry"/>
                 </mxCell>
                 <mxCell id="CzlY_3GEPiYwgtGJOx_Z-25" edge="1" parent="1" source="CzlY_3GEPiYwgtGJOx_Z-24" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="CzlY_3GEPiYwgtGJOx_Z-21">
