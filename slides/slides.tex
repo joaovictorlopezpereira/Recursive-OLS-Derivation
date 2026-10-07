@@ -6,29 +6,28 @@
 
   \frame{\titlepage}
 
-  \begin{frame}{Sumário}
-    \begin{itemize}
-      \item Motivação (Problema); \\[1cm]
-      \item Abordagem (Otimização); \\[1cm]
-      \item Mínimos Quadrados (Problema 1); \\[1cm]
-      \item Análise Matricial (Problema 2).
-    \end{itemize}
-  \end{frame}
-
-  \section{Motivação}
-    \input{part-1/the-problem.tex}
+  \bigtitlepage{Mínimos Quadrados}
+    \input{part-1/what-is-least-squares.tex}
+    \input{part-1/paraboloid.tex}
+    \input{part-1/1-variable.tex}
+    \input{part-1/parabola.tex}
+    \input{part-1/more-variables.tex}
 
   \bigtitlepage{Abordagem}
     \input{part-2/our-approach.tex}
     \input{part-2/argmin-decoupled.tex}
+    \input{part-2/paraboloid-and-parabola.tex}
 
-  \bigtitlepage{Mínimos Quadrados}
-    \input{part-3/first-problem.tex}
-    \input{part-3/qr-decomp.tex}
-    \input{part-3/multiple-solutions.tex}
-    \input{part-3/our-solution.tex}
+  \bigtitlepage{Mínimos Quadrados em Várias Variáveis}
+    \input{part-3/detour-about-LT.tex}
+    \input{part-3/solving-ols.tex}
+    % a shit ton of math here
+    % https://webwhiteboard.com/board/uXjVEdxCPnc=/?boardAccessToken=AurTOoI76GFI7iJhZWAfpHmrUHmxLkMn
 
-  \bigtitlepage{Análise Matricial}
+  \bigtitlepage{Outros Problemas de Otimização}
+    \input{part-4/what-else-we-are-doing.tex}
+    \input{part-4/procrustes.tex}
+    \input{part-4/eckart-young.tex}
     \input{part-4/second-problem.tex}
 
   \appendix

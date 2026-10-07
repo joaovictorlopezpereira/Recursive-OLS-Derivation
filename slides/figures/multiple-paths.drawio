@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TIUG3zzZI8yvlcEGr8bU" name="Page-1">
-        <mxGraphModel dx="772" dy="357" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="723" dy="298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -87,6 +87,45 @@
                 </mxCell>
                 <mxCell id="se64jTQpNhdwxoavnPql-1" parent="1" style="whiteSpace=wrap;html=1;" value="Rayleight" vertex="1">
                     <mxGeometry height="38" width="80" x="414" y="142" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-1" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y0NeWzlc8-RhNitOyU5X-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-2" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Desigualdade de Traço de Von Neumann&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="49" width="105" x="320" y="674.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-3" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-4" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y0NeWzlc8-RhNitOyU5X-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-4" parent="1" style="whiteSpace=wrap;html=1;" value="Cauchy-Schwarz" vertex="1">
+                    <mxGeometry height="38" width="80" x="200" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-5" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-9" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="Y0NeWzlc8-RhNitOyU5X-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-6" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-9" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Y0NeWzlc8-RhNitOyU5X-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-7" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="Y0NeWzlc8-RhNitOyU5X-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-8" edge="1" parent="1" source="Y0NeWzlc8-RhNitOyU5X-9" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Y0NeWzlc8-RhNitOyU5X-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Teorema de Traço de Von Neumann&lt;/span&gt;&lt;/p&gt;" vertex="1">
+                    <mxGeometry height="49" width="105" x="465" y="674.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-10" parent="1" style="whiteSpace=wrap;html=1;" value="Procrustes" vertex="1">
+                    <mxGeometry height="38" width="80" x="620" y="718" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-11" parent="1" style="whiteSpace=wrap;html=1;" value="Autoencoder" vertex="1">
+                    <mxGeometry height="38" width="80" x="620" y="642" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-12" parent="1" style="whiteSpace=wrap;html=1;" value="Eckart-Young" vertex="1">
+                    <mxGeometry height="38" width="80" x="520" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y0NeWzlc8-RhNitOyU5X-13" parent="1" style="whiteSpace=wrap;html=1;" value="Rayleight" vertex="1">
+                    <mxGeometry height="38" width="80" x="520" y="600" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
