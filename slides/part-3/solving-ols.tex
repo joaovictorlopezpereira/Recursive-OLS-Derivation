@@ -1,0 +1,63 @@
+
+\begin{frame}[fragile]{Resolvendo Mínimos Quadrados}
+  \begin{theorem}[Solução de Mínimos Quadrados]
+    Seja $A \in \mathbb{R}^{m \times n}$ uma matriz e $b \in \mathbb{R}^{m}$ um vetor. Então existem matrizes $T \in \mathbb{R}^{n \times m}$ e $M \in \mathbb{R}^{n \times m}$ tais que
+    \[
+      (\bar{x}, \bar{v})
+      \in
+      \am{x} \norm{Ax - b}
+      \iff
+      \bar{x} = T b \text{ e } \bar{v} = \norm{M b}.
+    \]
+  \end{theorem}
+  \pause
+  \begin{proof}
+    A prova é por indução na dimensão de $x$ (número de variáveis).
+
+    \vspace{0.6cm}
+
+    \textbf{Caso Base:} $x=1$: Não mostraremos aqui. :)
+    \renewcommand{\qedsymbol}{}
+  \end{proof}
+\end{frame}
+
+\begin{frame}
+  \begin{proof}
+    \textbf{Passo de Indução:}
+    \begin{calcproof}[]
+      \start{(\bar{x_1}, \bar{x_2}, \bar{v}) \in \am{x_1, x_2} \norm{ \begin{jmatrix} A_1 & a_2 \end{jmatrix} \begin{jmatrix} x_1 \\ x_2 \end{jmatrix} - b}}
+      \step{Multiplicação matriz-vetor}{
+      (\bar{x_1}, \bar{x_2}, \bar{v}) \in \am{x_1, x_2} \norm{A_1 x_1 + a_2 x_2 - b}}
+      \step{Argmin Desacoplado}{
+      \begin{array}{ll}
+        \bar{x_1} \in \argmin{x_1} \norm{A_1 x_1 + A_2 \bar{x_2} + b} \\[0.2cm]
+        (\bar{x_2}, \bar{v}) \in \am{x_2} \min{x_1} \norm{A_1 x_1 + A_2 x_2 + b}
+      \end{array}}
+    \end{calcproof}
+    \renewcommand{\qedsymbol}{}
+  \end{proof}
+\end{frame}
+
+\begin{frame}
+  \begin{proof}
+    \begin{calcproof}[]
+      \start{
+      \begin{array}{ll}
+        \bar{x_1} \in \argmin{x_1} \norm{A_1 x_1 + A_2 \bar{x_2} + b} \\[0.2cm]
+        (\bar{x_2}, \bar{v}) \in \am{x_2} \min{x_1} \norm{A_1 x_1 + A_2 x_2 + b}
+      \end{array}}
+      \step{Hipótese de Indução}{
+      \begin{array}{ll}
+        \bar{x_1} = T_1 (- b - A_2 \bar{x_2}) \\[0.2cm]
+        (\bar{x_2}, \bar{v}) \in \am{x_2} \norm{M_1 (b - A_2 x_2)}
+      \end{array}}
+      \step{Hipótese de Indução}{
+      \begin{array}{lll}
+        \bar{x_1} = T_1 (- b - A_2 \bar{x_2}) \\[0.2cm]
+        \bar{x_2} = T_2 M_1 b \\[0.2cm]
+        \bar{v} = \norm{M_2 M_1 b}
+      \end{array}}
+    \end{calcproof}
+    \renewcommand{\qedsymbol}{}
+  \end{proof}
+\end{frame}

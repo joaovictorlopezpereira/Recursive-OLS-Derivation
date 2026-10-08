@@ -66,7 +66,7 @@
 
 % Math
 %->8-------------------------------------------------------------------------------------------8<-%
-\usepackage{amsmath, amssymb, calculation, mathdots, scalerel, mathtools}
+\usepackage{amsmath, amssymb, mathdots, scalerel, mathtools}
 
   % Matrices and Vectors Related Commands
   %->8-------------------------------------------------------------8<-%
@@ -96,6 +96,7 @@
   \renewcommand{\max}[1]{\underset{#1}{\mathrm{Max}}\,\,}
   \newcommand{\argmintext}{\text{Argmin}}
   \newcommand{\argmin}[1]{\underset{#1}{\mathrm{Argmin}}\,\,}
+  \newcommand{\am}[1]{\underset{#1}{\mathrm{AM}}\,\,}
   \newcommand{\argmaxtext}{\text{Argmax}}
   \newcommand{\argmax}[1]{\underset{#1}{\mathrm{Argmax}}\,\,}
   %->8-------------------------------------------------------------8<-%
@@ -172,3 +173,18 @@
 \institute{Instituto de Computação -- UFRJ \\[0.2cm] Aluno bolsista CNPq-UFRJ \quad | \quad Tempo dedicado: 10 meses}  % 312 days by the date of the presentation.
 \date{Outubro de 2026}
 %->8-------------------------------------------------------------------------------------------8<-%
+
+\usepackage{environ}
+
+\NewEnviron{calcproof}[1][.]{%
+  \begin{align*}
+    \BODY \text{#1}
+  \end{align*}
+}
+
+\newcommand{\start}[1]{& #1}
+
+\newcommand{\step}[3][\Updownarrow]{
+    \\[0.3cm] #1 \quad & \left\{ \begin{tabular}{@{}c@{}} #2 \end{tabular} \right\} \\[0.3cm]
+    & #3
+}

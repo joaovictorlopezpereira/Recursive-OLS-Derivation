@@ -1,18 +1,27 @@
 
-\begin{frame}{Propriedade de Argmin}
+\begin{frame}{Ferramenta que Utilizaremos}
 
   \begin{lemma}[Argmin Desacoplado]
     Seja $f : X \times Y \mapsto \mathbb{R}$ uma função tal que, $\forall x \in X$, $\min{y} f(x,y)$ exista.
     \[
+      (\bar{x}, \bar{y})
+      \in
       \argmin{x \in X, y \in Y} f(x,y)
-      =
-      \left\{(\bar{x}, \bar{y}) \bigst
+      \iff
+      % \left\{
         \begin{array}{ll}
           \bar{x} \in \argmin{x} \min{y} f(x,y), \\
           \bar{y} \in \argmin{y} f(\bar{x}, y).
         \end{array}
-      \right\}.
+      % \right\}
     \]
   \end{lemma}
+
+  \pause
+
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.95\textwidth]{red-parabola.png}
+  \end{figure}
 
 \end{frame}
