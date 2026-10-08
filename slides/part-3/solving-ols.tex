@@ -1,7 +1,7 @@
 
 \begin{frame}[fragile]{Resolvendo Mínimos Quadrados}
   \begin{theorem}[Solução de Mínimos Quadrados]
-    Seja $A \in \mathbb{R}^{m \times n}$ uma matriz e $b \in \mathbb{R}^{m}$ um vetor. Então existem matrizes $T \in \mathbb{R}^{n \times m}$ e $M \in \mathbb{R}^{n \times m}$ tais que
+    Seja $A \in \mathbb{R}^{m \times n}$ uma matriz e $b \in \mathbb{R}^{m}$ um vetor. Então existem matrizes $T \in \mathbb{R}^{n \times m}$ e $M \in \mathbb{R}^{m \times m}$ tais que
     \[
       (\bar{x}, \bar{v})
       \in
@@ -14,7 +14,7 @@
   \begin{proof}
     A prova é por indução na dimensão de $x$ (número de variáveis).
 
-    \vspace{0.6cm}
+    \vspace{0.6cm} \pause
 
     \textbf{Caso Base:} $x=1$: Não mostraremos aqui. :)
     \renewcommand{\qedsymbol}{}
@@ -49,7 +49,7 @@
       \step{Hipótese de Indução}{
       \begin{array}{ll}
         \bar{x_1} = T_1 (- b - A_2 \bar{x_2}) \\[0.2cm]
-        (\bar{x_2}, \bar{v}) \in \am{x_2} \norm{M_1 (b - A_2 x_2)}
+        (\bar{x_2}, \bar{v}) \in \am{x_2} \norm{M_1 (- b - A_2 x_2)}
       \end{array}}
       \step{Hipótese de Indução}{
       \begin{array}{lll}
